@@ -2,19 +2,30 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numero1 = 10;
+let numero2 = 10;
+if (numero1 < numero2) {
+  console.log("numero1 è minore di numero2")
+} else if(numero2 < numero1) {
+  console.log("numero2 è minore di numero1")
+}
+else {
+  console.log("numero1 è uguale a numero")
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const numero3 = 3
+if(numero3 !== 5)
+{console.log("not equal")}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-console.log( 20 % 5 )
+
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
@@ -28,14 +39,21 @@ console.log( 20 % 5 )
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const totalShoppingCart = 90
+
+if (totalShoppingCart >= 50) {
+  console.log("Complimenti la tua spedzione è gratuita!")
+} else {
+   (totalShoppingCart + 10, "Mi dispiace paghi 10€ di spedizione")
+}
+
+
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -43,16 +61,17 @@ console.log( 20 % 5 )
   Alla fine mostra il risultato in console.
 */
 
-let num1 = 10
-let num2 = 20
-let num3 = 30
-
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+let valore = 6
+if (typeof valore === "number") {
+  console.log("è un numero")
+}
+else {
+  console.log("non è un numero")
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
